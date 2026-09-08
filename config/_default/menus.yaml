@@ -3,22 +3,42 @@
 #     desired widget in your `content/home/` folder.
 #   The weight parameter defines the order that the links will appear in.
 
+# main:
+#   - name: Tour
+#     url: tour
+#     weight: 10
+#   - name: News
+#     url: post
+#     weight: 20
+#   - name: People
+#     url: people
+#     weight: 30
+#   - name: Events
+#     url: event
+#     weight: 40
+#   - name: Publications
+#     url: publication
+#     weight: 50
+#   - name: Contact
+#     url: contact
+#     weight: 60
+
 main:
-  - name: Tour
-    url: tour
+  - name: Home
+    url: 
     weight: 10
-  - name: News
-    url: post
-    weight: 20
-  - name: People
-    url: people
-    weight: 30
-  - name: Events
-    url: event
-    weight: 40
+  # 英文菜单
   - name: Publications
-    url: publication
-    weight: 50
-  - name: Contact
-    url: contact
-    weight: 60
+    url: /publication/
+    weight: 20
+  # 中文菜单
+  # - name: 发表论文
+  #   url: /en/publication/
+  #   weight: 20
+  # 语言切换
+  # - name: 中文
+  #   url: /zh/
+  #   weight: 90
+  # - name: English
+  #   url: /en/
+  #   weight: 91
