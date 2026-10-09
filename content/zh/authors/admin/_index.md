@@ -14,7 +14,7 @@ authors:
 superuser: true
 
 # 职位/角色
-role: 研究员
+role: 高聘副研究员
 
 # 所属机构
 organizations:

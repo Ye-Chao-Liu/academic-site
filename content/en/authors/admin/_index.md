@@ -14,7 +14,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Researcher
+role: Associate Researcher
 
 # Organizations/Affiliations
 organizations:
